@@ -1,17 +1,17 @@
-<h2>Python code implementing the BCDprox algorithm for ODE parameter estimation and filtering.</h2>
+<h3>Python code implementing the BCDprox algorithm for ODE parameter estimation and filtering</h3>
 
-Reference:
+<b>Reference:</b>
 
 A Block Coordinate Descent Proximal Method for Simultaneous Filtering and Parameter Estimation,
 Ramin Raziperchikolaei and Harish S. Bhat,
 Proceedings of the 36th International Conference on Machine Learning,
 ICML 2019, Long Beach, CA, June 10-15, 2019.
 
-Abstract:
+<b>Abstract:</b>
     
 We propose and analyze a block coordinate descent proximal algorithm (BCD-prox) for simultaneous filtering and parameter estimation of ODE models.  As we show on ODE systems with up to d=40 dimensions, as compared to state-of-the-art methods, BCD-prox exhibits increased robustness (to noise, parameter initialization, and hyperparameters), decreased training times, and improved accuracy of both filtered states and estimated parameters.  We show how BCD-prox can be used with multistep numerical discretizations, and we establish convergence of BCD-prox under hypotheses that include real systems of interest.    
 
-List of files:
+<h4>List of files:</h4>
 
 - demo.py: This is the main file. You need to run this file for the parameter 
 and state estimation. You can select the type of ODE, amount of the noise, true 
@@ -44,7 +44,7 @@ Fitzhugh_Nagumo model (eq.(17) of the paper).
 (eq.(19) of the paper).
 
 
-How to add a new ODE:
+<h4>How to add a new ODE:</h4>
 
 Let's assume that the name of this ODE is "new". You need to do the
 following:
@@ -58,7 +58,7 @@ You can follow what we did for the four ODEs inside the ODEs/ folder.
 name "new", set the parameters (dt, end_time, true parameters, noise,
 etc.).
 
-Installation:
+<h4>Installation:</h4>
 
 We ran the demo file on Linux with the PyCharm IDE. We used the Conda 
 environment. Here are the steps:
