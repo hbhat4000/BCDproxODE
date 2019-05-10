@@ -1,13 +1,15 @@
-Python code for ODE parameter estimation and filtering.
+<b>Python code for ODE parameter estimation and filtering.</b>
 
 Reference:
-    A Block Coordinate Descent Proximal Method for Simultaneous Filtering and Parameter Estimation,
-    Ramin Raziperchikolaei and Harish S. Bhat,
-    Proceedings of the 36th International Conference on Machine Learning,
-    ICML 2019, Long Beach, CA, June 10-15, 2019.
+
+A Block Coordinate Descent Proximal Method for Simultaneous Filtering and Parameter Estimation,
+Ramin Raziperchikolaei and Harish S. Bhat,
+Proceedings of the 36th International Conference on Machine Learning,
+ICML 2019, Long Beach, CA, June 10-15, 2019.
 
 Abstract:
-    We propose and analyze a block coordinate descent proximal algorithm (BCD-prox) for simultaneous filtering and parameter estimation of ODE models.  As we show on ODE systems with up to d=40 dimensions, as compared to state-of-the-art methods, BCD-prox exhibits increased robustness (to noise, parameter initialization, and hyperparameters), decreased training times, and improved accuracy of both filtered states and estimated parameters.  We show how BCD-prox can be used with multistep numerical discretizations, and we establish convergence of BCD-prox under hypotheses that include real systems of interest.    
+    
+We propose and analyze a block coordinate descent proximal algorithm (BCD-prox) for simultaneous filtering and parameter estimation of ODE models.  As we show on ODE systems with up to d=40 dimensions, as compared to state-of-the-art methods, BCD-prox exhibits increased robustness (to noise, parameter initialization, and hyperparameters), decreased training times, and improved accuracy of both filtered states and estimated parameters.  We show how BCD-prox can be used with multistep numerical discretizations, and we establish convergence of BCD-prox under hypotheses that include real systems of interest.    
 
 List of files:
 
