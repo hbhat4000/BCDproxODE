@@ -1,4 +1,4 @@
-<b>Python code for ODE parameter estimation and filtering.</b>
+<h2>Python code implementing the BCDprox algorithm for ODE parameter estimation and filtering.</h2>
 
 Reference:
 
