@@ -5,6 +5,7 @@ sys.path.append('./ODEs/')
 from fitzhugh_nagumo import *
 from lotka_volterra import *
 from lorenz96 import *
+from lorenz import *
 from rossler import *
 
 
