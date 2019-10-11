@@ -7,6 +7,7 @@ from lotka_volterra import *
 from lorenz96 import *
 from lorenz import *
 from rossler import *
+from cubosc import *
 
 
 def simulate(ODE_str, x0, true_param, end_t, dt, noise_var):
